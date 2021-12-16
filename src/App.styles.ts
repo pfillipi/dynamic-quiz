@@ -18,6 +18,8 @@ export const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
     font-family: 'Catamaran', sans-serif;
+    margin: 0;
+    padding: 0;
   }
 `;
 
@@ -47,7 +49,7 @@ export const Wrapper = styled.div`
     -moz-text-fill-color: transparent;
     filter: drop-shadow(2px 2px #0085a3);
     font-size: 70px;
-    /* font-weight: 400; */
+    font-weight: 400;
     text-align: center;
     margin: 20px;
   }
