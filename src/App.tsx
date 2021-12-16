@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { fetchQuizQuestions } from "./API";
 import QuestionCard from "./components/QuestionCard";
 import { QuestionState, Difficulty } from "./API";
-import { GlobalStyle, Wrapper } from "./App.styles";
+import { GlobalStyle, Wrapper } from "./app.styles";
 
 export type AnswerObject = {
   question: string;
